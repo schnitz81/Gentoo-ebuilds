@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit git-r3
+inherit git-r3 toolchain-funcs
 
 DESCRIPTION="Scaleable multibeings simulator with individual AI."
 HOMEPAGE="https://github.com/schnitz81/beings/"
