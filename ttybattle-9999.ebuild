@@ -36,7 +36,7 @@ src_compile() {
         ${LDFLAGS} \
         -o ttybattle \
 		main.o actions.o cpu.o gameengine.o menus.o \
-		-lcurses -lmenu || die "link ttybattle failed"
+		-lcurses -lmenu -ltinfo || die "link ttybattle failed"
 }
 
 
