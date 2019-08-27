@@ -37,7 +37,7 @@ src_compile() {
         ${LDFLAGS} \
         -o textmode-lifestyle \
 		main.o banner.o bouncer.o dotbar.o loop.o scroller.o tune.o \
-		-lncurses -lpthread -lmikmod || die "Link of object files failed"
+		-lncurses -lpthread -lmikmod -ltinfo || die "Link of object files failed"
 }
 
 
