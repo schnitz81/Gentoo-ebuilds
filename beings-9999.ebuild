@@ -36,7 +36,7 @@ src_compile() {
         ${LDFLAGS} \
         -o beings \
 		main.o ai.o being.o event.o world.o \
-		-lcurses || die "link beings failed"
+		-lcurses -ltinfo || die "link beings failed"
 }
 
 
