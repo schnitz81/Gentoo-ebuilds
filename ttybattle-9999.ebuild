@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit git-r3
+inherit git-r3 toolchain-funcs
 
 DESCRIPTION="Turn-based battle against the AI."
 HOMEPAGE="https://github.com/schnitz81/ttybattle/"
