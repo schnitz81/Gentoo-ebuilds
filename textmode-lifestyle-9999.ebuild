@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit git-r3
+inherit git-r3 toolchain-funcs
 
 DESCRIPTION="Scaleable text-mode intro demo for the Linux terminal."
 HOMEPAGE="https://github.com/schnitz81/textmode-lifestyle/"
