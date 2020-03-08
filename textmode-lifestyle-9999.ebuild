@@ -29,7 +29,6 @@ src_compile() {
 	for x in main banner bouncer dotbar loop scroller tune 
 	do
 		$(tc-getCC) \
-			${CPPFLAGS} ${CFLAGS} \
 			-D PACKAGE \
 			-c -o ${x}.o ${x}.c || die "compile failed"
 	done
